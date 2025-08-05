@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
+}
+
+/* Syncfusion theme customization */
+.e-grid .e-headercell {
+  background-color: #f8fafc !important;
+  border-color: #e2e8f0 !important;
+}
+
+.e-grid .e-row {
+  border-color: #e2e8f0 !important;
+}
+
+.e-grid .e-row:hover {
+  background-color: #f1f5f9 !important;
+}
+
+.e-btn.e-primary {
+  background-color: #334155 !important;
+  border-color: #334155 !important;
+}
+
+.e-btn.e-primary:hover {
+  background-color: #475569 !important;
+  border-color: #475569 !important;
+}
+
+.e-btn.e-success {
+  background-color: #059669 !important;
+  border-color: #059669 !important;
+}
+
+.e-btn.e-danger {
+  background-color: #dc2626 !important;
+  border-color: #dc2626 !important;
+}
+
+.e-btn.e-warning {
+  background-color: #d97706 !important;
+  border-color: #d97706 !important;
+}
